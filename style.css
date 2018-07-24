@@ -1,0 +1,81 @@
+.navbar{
+	border-style: dotted;
+	background: white;
+		}
+/*.logo{
+		border-style: double;
+		padding-top: 5px;
+		padding-left: 40px;}*/
+/*.temail{}*/
+.correo {
+	padding-left: 400px;
+	/*background: #F4F1EA;*/
+	
+}
+.dlogo{
+	padding-left: 200px;
+}
+
+.logo{
+    height: 75px;
+    width: 225px;
+}
+
+
+.lemail{
+    border-radius: 5px;
+    border:2px solid #ccc;
+    height: 25px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 15px;
+}
+
+.lpass{
+    border-radius: 5px;
+    border:2px solid #ccc;
+    height: 25px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 15px;
+}
+
+.textgray{
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+.btn{
+	background-color: #382110;
+    border: 1px solid #382110;
+    color: white;
+    font-weight: normal;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+/*.mensaje{
+	padding-top: 125px;
+	padding-left: 160px
+}*/
+
+.freetime{
+    height: 350px;
+    width: 700px;
+}
+
+.presentacion{
+    border-style: dotted;
+    
+}
+
+.thirdPartyLink{
+    align-content: space-between;
+    list-style-type: none;
+}
+
+.servicios{
+    border-style: dotted;
+}
+
+.carousel-item{
+    width: 1224px; 
+height: 650px;
+}
