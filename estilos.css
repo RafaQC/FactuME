@@ -1,0 +1,22 @@
+.teveo{
+    border: red 1px solid;
+}
+
+.tarjetaUsuario{
+    background: #004F8B;
+}
+
+.tarjetaRazon{
+    background: #1097FF;
+}
+
+.fotoPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.botonFacturar{
+    width: 80%;
+    background: #AE0062 !important;
+}
