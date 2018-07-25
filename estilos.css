@@ -2,13 +2,56 @@
     border: red 1px solid;
 }
 
+body{
+    background: linear-gradient(#6668d0, #efefef);
+    background-repeat: no-repeat;
+}
+
+.barraTitulo{
+    background: #303f9f;
+}
+
+.barraTitulo a{
+    font: white;
+}
+
+
 .tarjetaUsuario{
-    background: #004F8B;
+    background: #00186f;
     text-align: center;
+    color: white;
+    list-style-type: none;
+}
+
+.listaUsuario ul li {
+    list-style-type: none;
+}
+
+.userLabel{
+    width:100%;
+}
+
+.alineado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    background: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .tarjetaRazon{
-    background: #1097FF;
+    background: #666ad1;
 }
 
 .fotoPerfil{
@@ -17,7 +60,26 @@
     border-radius: 100%;
 }
 
+.botonRazon{
+    background: #303f9f !important;
+}
+
 .botonFacturar{
     width: 80%;
-    background: #AE0062 !important;
+    background: #303f9f !important;
+}
+
+.boxBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tarjetaTitulo{
+    color: white;
+}
+
+.tarjetaSub{
+    color: #000000;
 }

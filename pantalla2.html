@@ -8,6 +8,7 @@
 
     <!-- CSS Propio -->
     <link rel="stylesheet" href="estilos.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
@@ -23,7 +24,7 @@
         - Agregar colores de la empresa
         - Agregar logo
      -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark barraTitulo">
         <a class="navbar-brand" href="#">FactuME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -70,23 +71,45 @@
 
 
         <div class="card " style="width: 100%;">
-            <div class="card-body tarjetaUsuario ">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-3 ">
+            <div class="card-body tarjetaUsuario  ">
+                <div class="row">
+                    <div class="col-12 col-lg-3 alineado">
                         <img src="Map.jpg" alt="MAPACHE" class="fotoPerfil">
 
                     </div>
 
-                    <div class="col-12 col-md-9 ">
-                        <h1>Pancho Godinez</h1>
-                        <ul>
-                            <li>Correo: Mapancho@gmail.com</li>
-                            <li>Facturas pendientes: 0</li>
-                            <li>Facturas disponibles: 58</li>
-                            <!-- ¿Ponerle una barrita de progreso? -->
+                    <div class="col-12 col-lg-9 listaUsuario ">
+                        <div class="row alineado">
+                            <h1>Pancho Godinez</h1>
+                        </div>
 
-                        </ul>
-                        <button type="button" class="btn btn-primary">Nueva Razón Social</button>
+                        <div class="row alineado">
+                            <div class="input-group mb-3 alineado">
+                                <div class="input-group-prepend col-5 p-0">
+                                    <span class="input-group-text userLabel" id="basic-addon1">Email</span>
+                                </div>
+                                <span class="userData col-6">mapancho@hotmail.com</span>
+                            </div>
+                            <div class="input-group mb-3 alineado">
+                                <div class="input-group-prepend col-5 p-0">
+                                    <span class="input-group-text userLabel" id="basic-addon1">Facturas Disponibles</span>
+                                </div>
+                                <span class="userData col-6">100</span>
+                            </div>
+                            <div class="input-group mb-3 alineado">
+                                <div class="input-group-prepend col-5 p-0">
+                                    <span class="input-group-text userLabel" id="basic-addon1">Facturas Emitidas</span>
+                                </div>
+                                <span class="userData col-6">300</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row alineado   ">
+
+                            <button type="button" class="btn btn-primary botonRazon">Nueva Razón Social</button>
+                        </div>
                     </div>
 
                 </div>
@@ -107,13 +130,13 @@
                     <div class="card-body tarjetaRazon">
                         <div class="row ">
 
-                            <div class="col-6">
+                            <div class="col-6 ">
 
-                                <h5 class="card-title">Francisco José Godinez Urrutia</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">GOFU881224</h6>
+                                <h5 class="card-title tarjetaTitulo">Francisco José Godinez Urrutia</h5>
+                                <h6 class="card-subtitle mb-2 tarjetaSub">GOFU881224</h6>
                             </div>
 
-                            <div class="col-6 ">
+                            <div class="col-6 boxBoton ">
                                 <button type="button" class="btn btn-primary botonFacturar">Facturar</button>
                             </div>
 
@@ -131,15 +154,15 @@
                 <!-- Tarjeta 2 -->
                 <div class="card" style="width: 100%;">
                     <div class="card-body tarjetaRazon">
-                        <div class="row ">
+                        <div class="row  ">
 
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 ">
 
-                                <h5 class="card-title">El Mapache Loco S.A. de C.V</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">EML881228</h6>
+                                <h5 class="card-title tarjetaTitulo">El Mapache Loco S.A. de C.V</h5>
+                                <h6 class="card-subtitle mb-2 tarjetaSub">EML881228</h6>
                             </div>
 
-                            <div class="col-6">
+                            <div class="col-6 boxBoton">
                                 <button type="button" class="btn btn-primary botonFacturar">Facturar</button>
                             </div>
 
@@ -151,8 +174,6 @@
             </div>
 
         </div>
-
-
 
 
     </div>
