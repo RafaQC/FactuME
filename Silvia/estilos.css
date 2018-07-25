@@ -1,0 +1,84 @@
+.formulario{
+	margin-top: 55px; 
+	margin-bottom: 20px;
+	padding-top:30px;
+}
+
+.inicio{
+	margin-top: 
+	margin-bottom: 20px;
+}
+
+.fondo{
+	background:linear-gradient(#6668d0, #efefef);
+	height: 900px;
+	background-repeat: no-repeat;
+}
+
+.boton{
+	margin-bottom: 20px;
+	background: #303f9f;
+	border-color: #303f9f;
+}
+
+.letra{
+	color: white;
+}
+
+.iconoArchivo{
+	margin-left: 100px;
+	justify-content: center;
+	color: #bdbdbd;
+
+}
+
+.iconoCamara{
+	margin-left: 100px;
+	justify-content: center;
+	color: #bdbdbd;
+}
+
+.tarjeta {
+	margin-top: 55px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.fondoTarjeta{
+	background:linear-gradient(#303f9f, #8d8d8d);
+
+
+}
+
+.textoTarjeta{
+	margin-left: 85px;	
+	margin-top: 20px;
+	color: white;	
+}
+
+.botonTarjeta{
+	margin-left: 110px;
+	background: #303f9f;
+	border-color: #303f9f;
+}
+
+.tituloTarjeta{
+	margin-left: 20px;
+	margin-top: 20px;
+	color: white;	
+}
+
+.navegacion{
+	background: #303f9f;
+}
+
+.contenedor{
+	background: linear-gradient(#666ad1,#efefef);
+	height: 900px
+}
+
+.contenedor4{
+	margin-bottom: 30px;
+}
+

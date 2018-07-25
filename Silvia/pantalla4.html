@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <title>FactuME</title>
+  </head>
+  <body onload="myFunction()">
+
+  <div class="fondo">
+
+    <nav class="navbar navbar-expand-lg navbar-dark  navegacion fixed-top">
+      <a class="navbar-brand" href="#">Facturar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Registro <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Historial</a>
+          </li>
+        </ul>
+      </div>
+    </nav>  
+
+  <div class="container contenedor4">
+    <div class="row tarjeta">
+      <div class="card col-md-4 fondoTarjeta" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title tituloTarjeta">Francisco José Godínez Urrutia</h5>
+          <i class="far fa-8x fa-file-image iconoArchivo" href="#"></i>
+          <p class="card-text textoTarjeta">Sube un archivo.</p>
+          <input type="file" id="myFile" multiple size="50" onchange="myFunction()" class="letra">
+<!--           <a href="#" class="btn btn-primary botonTarjeta">Archivos</a> -->
+        </div>
+      </div>
+      <div class="card col-md-4 fondoTarjeta" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title tituloTarjeta">Francisco José Godínez Urrutia</h5>
+          <i class="fas  fa-8x fa-camera iconoCamara" href="#"></i>
+          <p class="card-text textoTarjeta">Toma una fotografía.</p>
+          <a href="#" class="btn btn-primary botonTarjeta">Capturar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <p id="demo"></p>
+      <p><strong>Tip:</strong> Use la tecla Control o la tecla Mayús para seleccionar múltiples archivos.</p>
+
+
+  </div>
+
+
+
+  </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
