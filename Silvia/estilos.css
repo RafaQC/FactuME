@@ -43,6 +43,7 @@
 	display: flex;
 	justify-content: space-around;
 	padding-top: 50px;
+
 }
 
 .fondoTarjeta{
@@ -82,3 +83,58 @@
 	margin-bottom: 30px;
 }
 
+/*otro css
+
+.con{
+
+/*	height: 100px;*/
+
+
+.boton1{
+	height:50%;
+	background: #303f9f;
+	border-color: #303f9f;
+	width: 100%
+
+/*.logo{
+	background:contain;
+	background-size: 10px;*/
+}
+
+.con{
+	margin-top: 55px; 
+	padding-top: 20px;
+}
+
+.fondo1{
+	background: linear-gradient(#6668d0, #efefef);;
+	background-repeat: no-repeat;
+
+}
+
+.botoon1{
+	background: #303f9f;
+	border-color: #303f9f;
+	height: 40px;
+	padding-right: 3%;
+	margin-left: 3%;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.tarjeta1 {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.beneficios{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.fondoTarjeta1{
+	background: transparent;
+}
