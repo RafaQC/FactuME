@@ -9,7 +9,6 @@
 }
 
 
-
 .formulario{
 	margin-top: 55px; 
 	margin-bottom: 20px;
@@ -17,7 +16,7 @@
 }
 
 .inicio{
-	margin-top: 
+	/* margin-top: */
 	margin-bottom: 20px;
 }
 
@@ -130,7 +129,7 @@
 	height: 40px;
 	padding-right: 3%;
 	margin-left: 3%;
-	color: white;
+	color: white !important;
 	margin-bottom: 20px;
 }
 
@@ -198,3 +197,57 @@
 	color: white;
 	text-align: center;
 }
+
+
+.faqTarjeta{
+	background: #666ad1;
+}
+
+/* Página 2 */
+
+.listaUsuario h1{
+	color: white;
+}
+
+.razonesTarjetas{
+	margin-top: 10px;
+
+}
+
+.tarjetaUsuario{
+	background: #303f9f !important;
+
+}
+
+.fotoPerfil{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+
+}
+
+.userLabel{
+	background: grey ;
+	width: 100%;
+}
+
+.userData{
+	background: white;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+}
+
+.tarjetaRazon{
+	background: #6668d0
+}
+
+.tarjetaTitulo{
+	color: white;
+}
+
+tarjetaSub{
+	color: black;
+}
+
+
