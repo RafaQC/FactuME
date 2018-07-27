@@ -1,3 +1,4 @@
+
 let razon= document.getElementById("inputAddress");
 let rfc= document.getElementById("inputAddress2");
 let ciudad= document.getElementById("inputState");

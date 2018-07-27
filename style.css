@@ -1,12 +1,18 @@
 .navbar{
 	border-style: dotted;
-	background: white;
+	background: #303f9f;
 		}
 /*.logo{
 		border-style: double;
 		padding-top: 5px;
 		padding-left: 40px;}*/
 /*.temail{}*/
+
+body{
+    background: linear-gradient(#6668d0, #efefef);
+    background-repeat: no-repeat;
+}
+
 .correo {
 	padding-left: 400px;
 	/*background: #F4F1EA;*/

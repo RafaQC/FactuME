@@ -1,3 +1,15 @@
+.teveo{
+	border: red 1px solid;
+}
+
+.alineado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
 .formulario{
 	margin-top: 55px; 
 	margin-bottom: 20px;
@@ -137,4 +149,25 @@
 
 .fondoTarjeta1{
 	background: transparent;
+}
+
+
+.faq{
+	background: #303f9f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.faqBox{
+	width: 50%;
+}
+
+.tituloFaq{
+	color: white;
+}
+
+.footer{
+	background: #001970;
+	color: white;
+	text-align: center;
 }
