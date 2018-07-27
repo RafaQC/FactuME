@@ -1,154 +1,356 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>FACT TO ME!</title>
-  </head>
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <nav class="navbar navbar-expand-sm">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  <title>FactuME</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navegacion fixed-top">
+    <a class="navbar-brand" href="#">Facturar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Registro
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Historial</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="fondo1">
+
+    <div class="container con">
+      <div class="row">
+
+
+        <ul class="nav col-md-5 col-sm-12 ">
+          <li class="nav-item">
+            <!--             <img class="logo"src="http://d.gr-assets.com/misc/1454549184-1454549184_goodreads_misc.jpg"> -->
+            <h1>
+              <a class="nav-link active letra" href="index.html">FactuME</a>
+            </h1>
+          </li>
+        </ul>
+
+
+        <div class="form-group col-md-3 col-sm-12">
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
+          <div class="form-group col-md-2 col-sm-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label col-md-2 letra" for="gridCheck">
+                Remember me
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="form-group col-md-3 col-sm-12">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            <small id="passwordHelpBlock" class="form-text letra">
+              Forgot it? 
+            </small>
+        </div>
+
+
+        <button type="button" class="btn btn-primary col-md-1 boton1 col-sm-6">Iniciar</button>
+      
+
+
+      </div>
+    </div>
+
+    <!-- Segundo contenedor -->
+    <div class="container cont">
+      <div class="row">
+        <div class="col-md-7 col-sm-none">
+        <img class="factu"src="logo12.png"> 
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <div class="container">
+            <div class="row tem">
+
+              <div class="form-group col-md-12 col-sm-12">
+                <label for="exampleInputEmail1" class="letra">¿Nuevo aquí? ¡Crea una cuenta!</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+              </div>
+
+              <div class="form-group col-md-12 col-sm-12">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+              </div>
+
+              <div class="form-group col-md-12 col-sm-12">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+              </div>
+
+          <button type="submit" class="btn btn-primary col-md-3 botoon1 col-sm-12">Registrate</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://www.ekaenlinea.com/wp-content/uploads/2017/11/Captura-de-pantalla-2017-11-17-a-las-16.49.43.png"
+            alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="letrasCarrusel">Paso 1.</h5>
+            <p class="letrasCarrusel">Toma o sube una fotografía.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="http://www.impulsonegocios.com/resources/original/IN_2015/-norberto20152/00000facturando170415ok.jpg">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5 class="letrasCarrusel">Paso 2.</h5>
+            <p class="letrasCarrusel">Nuestro equipo se encargará de facturar por ti.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="http://efacturacion.pe/wp-content/uploads/2017/10/facturaci%C3%B3n-electr%C3%B3nica-1200x636.png">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="letrasCarrusel">Paso 3.</h5>
+            <p class="letrasCarrusel">Recibe tus facturas vía email.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <h1 class="beneficios">¿Por qué a las empresas les encanta FactuME?</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row tarjeta1">
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1">
+
+            <div class="card-body">
+              <h5 class="card-title">Úsala donde estés</h5>
+              <i class="fas fa-7x fa-globe-asia"></i>
+              <p class="card-text">FactuME te permite usarla en cualquier dispositivo y en el horario que elijas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1">
+
+            <div class="card-body">
+              <h5 class="card-title">Disfruta de tiempo libre</h5>
+              <i class="fas fa-7x fa-umbrella-beach"></i>
+              <p class="card-text">Sólo toma una foto y usa tu tiempo en las actividades que más disfrutas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1">
+
+            <div class="card-body">
+              <h5 class="card-title">Deduce más impuestos</h5>
+              <i class="fas fa-7x fa-calculator"></i>
+              <p class="card-text">Nos encargamos de que todas tus facturas estén en orden y a tiempo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fondoval">
+    <div class="container">
+      <div class="row">
+        <h1 class="validacion">Validaciones de nuestros clientes</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1" >
+            <div class="card-body">
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <p class="card-text">FactuME te permite usarla en cualquier dispositivo y en el horario que elijas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1" >
+            <div class="card-body">
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <p class="card-text">FactuME te permite usarla en cualquier dispositivo y en el horario que elijas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1" >
+            <div class="card-body">
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <p class="card-text">FactuME te permite usarla en cualquier dispositivo y en el horario que elijas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card fondoTarjeta1" >
+            <div class="card-body">
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <i class="fas fa-star estrella"></i>
+              <p class="card-text">FactuME te permite usarla en cualquier dispositivo y en el horario que elijas.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+
+    <div class="faq">
+
 
       <div class="row">
-        <div class="dlogo">
-          <img class="logo" alt="FACTOME" src="factume.jpg">
+
+        <div class="container faqBox">
+
+          <div class="row justify-content-center">
+
+            <h3 class="tituloFaq">Preguntas Frecuentes</h3>
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    ¿Quién hace mis facturas?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Un equipo de profesionales especializado.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    ¿Mis datos están protegidos?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  10 perros y 80 maldiciones protegen tus datos.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    ¿Cuánto tardan en mandarme las facturas?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Máximo 2 días, mínimo .03 segundos.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-          <div class="correo">
 
-            <div class="row" >
-              <div class="col">
-                <input type="email" class="lemail" placeholder="Email address"> 
-              </div>
-              <div class="col">
-                <input type="password" class="lpass" placeholder="Password">
-              </div>
-            </div>
-            <div class="row" >
-              <div class="col">
-                <input type="checkbox" class="temail" placeholder="Remember me">
-                <label class="textgray" for="cbox2">Remember me</label>
-              </div>
-              <div class="col">
-                <label  class="textgray">forgot it?</label> 
-              </div>
-            </div>
 
-          </div>
-          <div class="col">
-            <button class="btn btn-success" type="submit">Sign in</button>
-          </div>
+
+      <div class="row footer">
+
+        <div class="col-12 footerTitulo">
+          <h5>
+            <i class="fas fa-phone"></i>
+          </h5>
+        </div>
+        <div class="col-12 footerText">
+          <h6>55 5504 5800</h6>
+        </div>
 
       </div>
 
-    </nav>
 
 
-
-    <div class="container presentacion">
-        <div class="row">
-          <div class="col-lg-6 mensaje">
-            <div class="row">
-              <img alt="pruebaa." class="freetime col-12" src="tiempolibre.jpg">
-            </div>
-          </div>
-
-          <div class="col-lg-6 cuentanueva" id="newAccountBox">
-            <h2>
-              Crea una cuenta gratis!
-            </h2>
-
-            <form name="createForm" id="userSignupForm" autocomplete="off" action="" accept-charset="UTF-8" method="post">
-              <input name="utf8" type="hidden" value="✓">
-              <input type="hidden" name="authenticity_token" value="GQquBGquHVectIEju9pAWhUFblA66gjr1+nmSalKbP/n7Z7iqkPNGSwdbA2J0KBatX9nuyzwaVpdBc27q2qI/g==">
-              <div class="fieldPara">
-                <input class="lemail" placeholder="Name" type="text" name="user[first_name]" id="user_first_name">
-              </div>
-
-              <div class="fieldPara">
-                <input class="lemail" placeholder="Email Address" type="email" name="user[email]" id="user_email">
-              </div>
-
-              <div class="fieldPara">
-                <input class="lpass" id="user_password_signup" placeholder="Password" type="password" name="user[password]">
-              </div>
-
-              <div class="fieldPara">
-                <input class="btn" type="submit" name="next" class="button" value="Sign up">
-              </div>
-            </form>
-
-            <div id="thirdPartySignUpBox">
-              <div id="signInUsingContent">
-                <span id="signInUsing">
-                    Ingresa utilizando las siguientes redes sociales :
-                </span>
-                  <ul>
-                    <div class="row">
-                      <li class="thirdPartyLink col-sm-1">
-                        <a class="fbjsLogin" data-redirect="/" href="#">
-                          <img alt="Sign in with Facebook" title="Sign in with your Facebook account" src="https://s.gr-assets.com/assets/home/homepage_signin_facebook-99e862a1d6c0b1f359c0332006e16e10.png"></a>
-                      </li>
-                      <li class="thirdPartyLink col-sm-1">
-                        <a href="#" onclick="GR_Twitter.askToConnect(); return false;">
-                          <img alt="Sign in with Twitter" title="Sign in with your Twitter account" src="https://s.gr-assets.com/assets/home/homepage_signin_twitter-9922ba9506d10862d03a558f4424c026.png"></a>
-                      </li>
-                      <li class="thirdPartyLink col-sm-1">
-                        <a href="/google_accounts/sign_in">
-                          <img alt="Sign in with Google" title="Sign in with your Google account" src="https://s.gr-assets.com/assets/home/homepage_signin_google-4b119f254f4e8224b9a35ecb5f4fac55.png"></a>
-                      </li>
-                      <li class="thirdPartyLink col-sm-1">
-                        <a href="#" onclick="GR_Amazon.askToConnect('https://www.goodreads.com/amazon/login/redirect_to_amazon_login_url'); return false;"><img alt="Sign in with Amazon" title="Sign in with your Amazon account" src="https://s.gr-assets.com/assets/home/homepage_signin_amazon-c6b72b6cb35e3c975a179cebad1e7ace.png"></a>
-                      </li>
-                    </div>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="container servicios">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="huayna-picchu.jpg" alt="Huayna Picchu">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="aguaazul.jpg" alt="Agua Azul">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="cancun.jpg" alt="Cancun Mocambo">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-    </div>
-    
     <!-- Optional JavaScript -->
-    <script type="text/javascript" src="main.js"></script>
+    <script src="main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>
