@@ -137,4 +137,37 @@
 
 .fondoTarjeta1{
 	background: transparent;
+	border: none;
 }
+
+.factu{
+	height: 300px;
+	width: 500px;
+	transform: translateY(-20%) scale(2) translateX(10%)
+}
+
+.letrasCarrusel{
+	color:black;
+	font-size:50px;
+}
+
+.validacion{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.estrella{
+	color: #303f9f;
+}
+
+.fondoval{
+	background: #BDBDBD;
+}
+
+
+
+
+
+
+
